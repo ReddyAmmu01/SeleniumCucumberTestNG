@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69355" started-at="2020-03-14T15:08:00 IST" finished-at="2020-03-14T15:09:10 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69355" started-at="2020-03-14T15:08:00 IST" finished-at="2020-03-14T15:09:10 IST">
+      <class name="com.pos.testautomation.TestRunner.testRunner">
+        <test-method status="PASS" signature="SetupClass()[pri:0, instance:com.pos.testautomation.TestRunner.testRunner@3cb1ffe6]" name="SetupClass" is-config="true" duration-ms="468" started-at="2020-03-14T15:08:00 IST" finished-at="2020-03-14T15:08:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.pos.testautomation.TestRunner.testRunner@3cb1ffe6]" name="feature" duration-ms="68602" started-at="2020-03-14T15:08:01 IST" data-provider="features" finished-at="2020-03-14T15:09:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Youtube Search validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.pos.testautomation.TestRunner.testRunner@3cb1ffe6]" name="tearDownClass" is-config="true" duration-ms="26" started-at="2020-03-14T15:09:10 IST" finished-at="2020-03-14T15:09:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.pos.testautomation.TestRunner.testRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
